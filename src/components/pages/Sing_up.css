@@ -1,0 +1,27 @@
+*{
+    border-radius: 0;
+    color: #fff;
+    
+    
+  }
+  
+  .titulo{
+      text-align: center;
+      position: relative;
+      top: 200px;
+  }
+  
+  .formulario{
+    text-align: center;
+    position: relative;
+    top: 240px;
+    
+    
+  }
+  
+  
+  .formulario_1{
+    text-align: center;
+    position: relative;
+    top: 260px;
+  }
