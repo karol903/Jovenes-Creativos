@@ -14,14 +14,62 @@
 .formulario{
   text-align: center;
   position: relative;
-  top: 240px;
+  top: 240%;
+  .formulario{
+    text-align: center;
+    position: relative;
+    top: 240%;
+    background: -webkit-linear-gradient(yellow,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+    
+    
+    
+  }
+  
+  
+  .formulario_1{
+    text-align: center;
+    position: relative;
+    top: 260%;
+    background: -webkit-linear-gradient(yellow,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+  }
   
   
 }
 
 
-.formulario_1{
-  text-align: center;
+.button {
+  padding: 15px 25px;
+  background: linear-gradient(to right, rgb(255, 106, 0), #ec38bc, #7303c0, cyan);  
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
   position: relative;
-  top: 260px;
+  width: 100px;
+  left: 42%;
+  position: absolute;
+  top: 60%;
 }
+
+.buton{
+  padding: 15px 25px;
+  background: linear-gradient(to right, rgb(255, 106, 0), #ec38bc, #7303c0, cyan);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  position: relative;
+  width: 100px;
+  left: 810px;
+  position: absolute;
+  top: 60%;
+}
+
+
+

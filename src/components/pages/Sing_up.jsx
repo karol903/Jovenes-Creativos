@@ -6,9 +6,9 @@ export const Sing_up= () => {
 
   return (
     <>
-    <h1 className="titulo">Registrarse</h1>
+    <h1 className="titulo">Registrarse </h1>
     <div className="formulario">
-      <label htmlFor="nombres">Nombres</label>
+      <label htmlFor="nombres">Nombres </label>
       <input
       type="Text"
       id="nombres"
@@ -18,7 +18,7 @@ export const Sing_up= () => {
     </div>
 
     <div className="formulario_1">
-      <label htmlFor="apellidos">Apellidos</label>
+      <label htmlFor="apellidos">Apellidos </label>
       <input
       type="Text"
       id="apellidos"
@@ -28,7 +28,7 @@ export const Sing_up= () => {
     </div>
 
     <div className="formulario_2">
-      <label htmlFor="username">Username</label>
+      <label htmlFor="username">Username </label>
       <input
       type="Text"
       id="username"
@@ -38,7 +38,7 @@ export const Sing_up= () => {
     </div>
 
     <div className="formulario_3">
-      <label htmlFor="email">Email</label>
+      <label htmlFor="email">Email </label>
       <input
       type="email"
       id="email"
@@ -48,7 +48,7 @@ export const Sing_up= () => {
     </div>
 
     <div className="formulario_4">
-      <label htmlFor="password">Password</label>
+      <label htmlFor="password">Password  </label>
       <input
       type="Text"
       id="password"
@@ -58,7 +58,7 @@ export const Sing_up= () => {
     </div>
 
     <div className="formulario_5">
-      <label htmlFor="comfir password">Comfir password</label>
+      <label htmlFor="comfir password">Confi-password </label>
       <input
       type="Text"
       id="comfir password"
@@ -66,6 +66,7 @@ export const Sing_up= () => {
       required
       />
     </div>
+    <button className="button">Registrarse</button>
     </>
   )
   

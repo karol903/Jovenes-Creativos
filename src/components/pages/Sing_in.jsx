@@ -26,6 +26,8 @@ export const Sing_in = () => {
       required
       />
     </div>
+    <button className="button" >Inicio</button>
+    <button className="buton">Registro</button>
     </>
   )
   
